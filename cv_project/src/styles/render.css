@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    padding: 0.6rem;
+    margin: 0.6rem 1rem;
+  }
+  label {
+    position: relative;
+    left: 1.2rem;
+  }
+  .cv_container {
+    display: flex;
+    padding: 2rem;
+  }
+  .render_cv_container{
+      display:flex;
+      height:100vh;
+      border:1px red solid;
+  }
+  .left{
+      display: flex;
+      flex-direction: column;
+      padding:0.5rem;
+      background-color: grey;
+      width:30%;
+  }
+  .left_image{
+      margin-bottom: 1rem;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      width:100%;
+  }
+  .right_work{
+      margin:1rem;
+  }
+  .right_education{
+    margin:1rem;
+    }
+
+  .right_about{
+      margin:1rem;
+  }
+hr{
+  border-top:1px solid #bbb
+}
+.right{
+  flex-grow: 1;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
